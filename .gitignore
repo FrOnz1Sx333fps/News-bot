@@ -1,0 +1,25 @@
+# Secrets — should never end up in Git
+.env
+
+# Telethon sessions (which contain your account credentials—essentially like a password)
+*.session
+*.session-journal
+
+# Runtime data / generated files
+subscribers.json
+subscribers.txt
+*.log
+*.docx
+
+# Editor Backups
+*.save
+*.py.save
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# ОС
+.DS_Store
